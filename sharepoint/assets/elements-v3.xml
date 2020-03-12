@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+    <ListInstance 
+            FeatureId="00bfea71-513d-4ca0-96c2-6a47775c0119"
+            Title="SPFXGantList" 
+            Description="Tasklist by SPFX"
+            TemplateType="150"
+            Url="Lists/GantList">
+    </ListInstance>
+
+</Elements>

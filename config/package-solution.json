@@ -3,19 +3,25 @@
   "solution": {
     "name": "spfx-assets-client-side-solution",
     "id": "d3f0cdeb-66d9-475c-820a-6d5c3102738a",
-    "version": "1.0.0.0",
+    "version": "3.0.0.0",
     "includeClientSideAssets": true,
     "features": [{
       "title": "asset-deployment-webpart-client-side-solution",
       "description": "asset-deployment-webpart-client-side-solution",
       "id": "75c8e800-05ab-4164-8d70-e3255cb1e00c",     
-      "version": "1.0.0.0",
+      "version": "3.0.0.0",
       "assets": {
         "elementManifests": [
-          "elements.xml"
+          "elements.xml",
+          "elements-v2.xml",
+          "elements-v3.xml"
         ],
         "elementFiles":[
           "schema.xml"
+        ],
+        "upgradeActions": [
+          "upgrade-actions-v2.xml",
+          "upgrade-actions-v3.xml"
         ]
       }
     }]
